@@ -16,22 +16,14 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
   <img src="https://img.shields.io/badge/Kubernetes-deploy-green?logo=kubernetes" />
   <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-yellow?logo=githubactions" />
   <img src="https://img.shields.io/badge/MLflow-tracking-orange?logo=mlflow" />
+  <img src="https://img.shields.io/github/repo-size/seuusuario/Projeto-CrewAI" />
+  <img src="https://img.shields.io/github/license/seuusuario/Projeto-CrewAI" />
+  <img src="https://img.shields.io/badge/status-finalizado-green" />
 </p>
 
 <p align="center">
   <img src="https://copilot.microsoft.com/th/id/BCO.crew-ai-cover.png" alt="Capa do Projeto CrewAI" width="800"/>
 </p>
-
---- 
-
-- 📦 Tamanho do repositório / Repository Size:  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/seuusuario/Projeto-CrewAI)
-
-- 📄 Licença do projeto / Project License:  
-  ![GitHub license](https://img.shields.io/github/license/seuusuario/Projeto-CrewAI)
-
-- 🛠️ Status:  
-  ![Status](https://img.shields.io/badge/status-finalizado-green)
 
 ---
 
