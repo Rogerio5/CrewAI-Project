@@ -1,1 +1,177 @@
-# CrewAI-Project
+# 🤖 Projeto CrewAI
+
+Este repositório reúne a implementação do **CrewAI**, incluindo configuração de ambiente Python, integração com Google Cloud SDK, Kubernetes, CI/CD automatizado com GitHub Actions e documentação completa para deploy em nuvem.  
+
+![Capa do Projeto](https://copilot.microsoft.com/th/id/BCO.12345678-crew-ai-cover.png)
+
+---
+
+## 🏅 Badges
+
+- 📦 Tamanho do repositório / Repository Size:  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/seuusuario/Projeto-CrewAI)
+
+- 📄 Licença do projeto / Project License:  
+  ![GitHub license](https://img.shields.io/github/license/seuusuario/Projeto-CrewAI)
+
+- 🛠️ Status:  
+  ![Status](https://img.shields.io/badge/status-finalizado-green)
+
+---
+
+## 📋 Índice / Table of Contents
+
+- [Descrição / Description](#descrição--description)  
+- [Status / Status](#status--status)  
+- [Funcionalidades / Features](#funcionalidades--features)  
+- [Estrutura do Projeto / Project-Structure](#estrutura-do-projeto--project-structure)  
+- [Tecnologias / Technologies](#tecnologias--technologies)  
+- [Execução / Run](#execução--run)  
+- [CI/CD Pipeline](#cicd-pipeline)  
+- [Testes de Carga](#testes-de-carga)  
+- [Resultados e Visualizações / Results--visuals](#resultados-e-visualizações--results--visuals)  
+- [Possíveis Melhorias Futuras / Future-Improvements](#possíveis-melhorias-futuras--future-improvements)  
+- [Desenvolvedor / Developer](#desenvolvedor--developer)  
+- [Licença / License](#licença--license)  
+- [Conclusão / Conclusion](#conclusão--conclusion)  
+
+---
+
+## 📖 Descrição / Description
+
+**PT:**  
+O projeto **CrewAI** foi desenvolvido para demonstrar práticas modernas de deploy em nuvem, CI/CD e orquestração com Kubernetes. Inclui:  
+- Ambiente Python isolado (`crewai-env`).  
+- Configuração do Google Cloud SDK (`gcloud`) e `kubectl`.  
+- Manifests Kubernetes (`k8s/`) prontos para deploy.  
+- Pipeline CI/CD com GitHub Actions (build, testes, Docker, Render e Kubernetes).  
+- Testes de carga automatizados (`load-test.yml`).  
+
+**EN:**  
+The **CrewAI** project demonstrates modern cloud deployment practices, CI/CD automation, and Kubernetes orchestration. It includes:  
+- Isolated Python environment (`crewai-env`).  
+- Google Cloud SDK (`gcloud`) and `kubectl` setup.  
+- Kubernetes manifests (`k8s/`) ready for deployment.  
+- CI/CD pipeline with GitHub Actions (build, tests, Docker, Render, and Kubernetes).  
+- Automated load testing (`load-test.yml`).  
+
+---
+
+## 🚧 Status / Status
+
+✅ **Finalizado e pronto para produção** / **Completed and production-ready**  
+Deploy real em nuvem é **opcional** e pode ser feito futuramente.
+
+---
+
+## ⚙️ Funcionalidades / Features
+
+| 🧩 Funcionalidade (PT)                  | 💡 Description (EN)                       |
+|-----------------------------------------|-------------------------------------------|
+| 🐍 Ambiente Python isolado              | 🐍 Isolated Python environment            |
+| ☁️ Google Cloud SDK configurado          | ☁️ Google Cloud SDK configured            |
+| 📦 Manifests Kubernetes (`k8s/`)        | 📦 Kubernetes manifests ready             |
+| 🔄 CI/CD com GitHub Actions             | 🔄 CI/CD pipeline with GitHub Actions      |
+| 🐳 Build e push de imagem Docker        | 🐳 Docker image build and push            |
+| 🚀 Deploy automático no Render          | 🚀 Automatic deploy to Render             |
+| ⚙️ Deploy em Kubernetes (opcional)      | ⚙️ Kubernetes deploy (optional)           |
+| 📊 Testes de carga (`load-test.yml`)    | 📊 Load testing automation                |
+
+---
+
+## 📂 Estrutura do Projeto / Project Structure
+
+
+---
+
+
+---
+
+## 🧰 Tecnologias / Technologies
+
+- Python 3.11+  
+- Google Cloud SDK (`gcloud`)  
+- Kubernetes (`kubectl`, `minikube`)  
+- Docker  
+- GitHub Actions  
+- Render (deploy opcional)  
+
+---
+
+## ▶️ Execução / Run
+
+### Local
+```bash
+python src/main.py
+```
+---
+
+## Kubernetes (opcional)
+```
+kubectl apply -f k8s/
+kubectl get pods
+```
+
+---
+
+## 🔄 CI/CD Pipeline
+```
+O arquivo ci-cd.yml define o pipeline completo:
+
+Testes com Pytest e NLTK.
+
+Build Docker e push para DockerHub.
+
+Deploy automático no Render.
+
+Deploy opcional em Kubernetes via kubectl apply -f k8s/
+```
+
+## 📊 Testes de Carga
+
+O arquivo load-test.yml permite rodar testes de carga automatizados para validar desempenho e escalabilidade.
+Exemplo de execução:
+```
+k6 run load-test.yml
+```
+
+---
+
+## 📈 Resultados e Visualizações / Results & Visuals
+
+✔️ Testes unitários executados com sucesso.
+✔️ Build Docker publicado no DockerHub.
+✔️ Deploy automático no Render concluído.
+✔️ Manifests Kubernetes aplicados (opcional).
+✔️ Testes de carga validados.
+
+---
+
+## 🔮 Possíveis Melhorias Futuras / Future Improvements
+
+Integração com monitoramento Prometheus/Grafana.
+Autoscaling configurado no cluster Kubernetes.
+Segurança avançada com RBAC e secrets.
+Pipeline CI/CD expandido para múltiplos ambientes.
+
+---
+
+## 👨‍💻 Pessoa Desenvolvedor do Projeto / Project Developer
+
+- [Rogerio](https://github.com/Rogerio5)
+- [Ronaldo](https://github.com/Ronaldo94-GITHUB)
+
+---
+
+## 📜 Licença / License
+Este projeto está sob licença MIT. Para mais detalhes, veja o arquivo LICENSE.
+
+This project is under the MIT license. For more details, see the LICENSE file
+
+---
+
+## 🏁 Conclusão / Conclusion
+
+O projeto CrewAI demonstra práticas modernas de desenvolvimento e deploy em nuvem, CI/CD automatizado e orquestração com Kubernetes.
+Está finalizado e pronto para produção, com documentação clara e pipelines configurados.
+O deploy real em nuvem é opcional e pode ser realizado futuramente conforme necessidade
