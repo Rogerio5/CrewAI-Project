@@ -147,8 +147,6 @@ MEUPROJETOCREWAI/
 
 ## 🧰 Tecnologias / Technologies
 
-## 🧰 Tecnologias / Technologies
-
 - Python 3.11+  
 - Docker  
 - Kubernetes  
@@ -170,7 +168,6 @@ MEUPROJETOCREWAI/
 </p>
 
 <br clear="all"/>
-
 
 ---
 
