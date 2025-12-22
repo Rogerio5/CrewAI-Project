@@ -2,6 +2,17 @@
 
 Este repositório reúne a implementação do **CrewAI**, incluindo configuração de ambiente Python, integração com Google Cloud SDK, Kubernetes, CI/CD automatizado com GitHub Actions e documentação completa para deploy em nuvem.  
 
+## 🚀 FastAPI + LangChain + RAG + MLflow + Hugging Face
+
+Este projeto combina tecnologias modernas para criar uma plataforma de IA completa:
+
+- **FastAPI**: APIs rápidas e documentadas para servir modelos e consultas.
+- **LangChain**: Orquestração de LLMs e pipelines de RAG.
+- **RAG**: Recuperação de conhecimento em bases vetoriais para respostas contextualizadas.
+- **MLflow**: Tracking, versionamento e deploy de modelos de ML.
+- **Hugging Face**: Modelos pré-treinados e fine-tuning para NLP e embeddings.
+
+
 <p align="center">
   <img src="https://copilot.microsoft.com/th/id/BCO.02798587-053d-41cc-bf58-9c9e284012ca.png" alt="Capa do Projeto MEUPROJETOCREWAI" width="800"/>
 </p>
