@@ -344,20 +344,25 @@ Integração com MLflow para tracking de experimentos
 
 ## 📈 Resultados e Visualizações / Results & Visuals
 
-✔️ Testes unitários executados com sucesso.
-✔️ Build Docker publicado no DockerHub.
-✔️ Deploy automático no Render concluído.
-✔️ Manifests Kubernetes aplicados (opcional).
-✔️ Testes de carga validados.
+✔️ Testes unitários executados com sucesso.  
+✔️ Build Docker publicado no DockerHub.  
+✔️ Deploy automático no Render concluído.  
+✔️ Manifests Kubernetes aplicados (opcional).  
+✔️ Testes de carga validados.  
+✔️ Monitoramento ativo no Grafana/Prometheus.  
+✔️ Alertas configurados no Alertmanager (Slack, e-mail, webhook).  
+✔️ Integração com MLflow para tracking de experimentos.  
+✔️ Logs e traces centralizados para observabilidade completa.  
+✔️ Pipeline CI/CD validado em múltiplos ambientes.  
 
 ---
 
 ## 🔮 Possíveis Melhorias Futuras / Future Improvements
 
-Integração com monitoramento Prometheus/Grafana.
-Autoscaling configurado no cluster Kubernetes.
-Segurança avançada com RBAC e secrets.
-Pipeline CI/CD expandido para múltiplos ambientes.
+- Integração avançada com Prometheus/Grafana (dashboards customizados, métricas de negócio, alertas inteligentes).
+- Autoscaling configurado no cluster Kubernetes (HPA/VPA).
+- Segurança reforçada com RBAC e secrets criptografados.
+- Pipeline CI/CD expandido para múltiplos ambientes (dev, staging, prod).
 
 ---
 
