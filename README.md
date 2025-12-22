@@ -2,7 +2,10 @@
 
 Este repositório reúne a implementação do **CrewAI**, incluindo configuração de ambiente Python, integração com Google Cloud SDK, Kubernetes, CI/CD automatizado com GitHub Actions e documentação completa para deploy em nuvem.  
 
-![Capa do Projeto](https://copilot.microsoft.com/th/id/BCO.12345678-crew-ai-cover.png)
+<p align="center">
+  <img src="https://copilot.microsoft.com/th/id/BCO.02798587-053d-41cc-bf58-9c9e284012ca.png" alt="Capa do Projeto MEUPROJETOCREWAI" width="800"/>
+</p>
+
 
 ---
 
@@ -18,6 +21,7 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
   <img src="https://img.shields.io/github/license/seuusuario/Projeto-CrewAI" />
   
 </p>
+
 ---
 
 ## 📋 Índice / Table of Contents
