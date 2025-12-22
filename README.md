@@ -165,6 +165,9 @@ MEUPROJETOCREWAI/
 - Pytest  
 
 <p>
+  <img alt="Grafana" title="Grafana" width="50px" src="https://grafana.com/static/img/favicon.png"/>
+<img alt="Prometheus" title="Prometheus" width="50px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
+
   <img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
   <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
   <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
@@ -336,13 +339,6 @@ Integração com MLflow para tracking de experimentos
 <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
 <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
 <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
-
-
-
-  <img align="left" alt="Prometheus" width="25px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
-  <img align="left" alt="Grafana" width="25px" src="https://grafana.com/static/img/favicon.png"/>
-
-
 
 </p>
 
