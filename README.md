@@ -167,8 +167,7 @@ MEUPROJETOCREWAI/
 <p>
 
   <img alt="Grafana" title="Grafana" width="50px" src="https://raw.githubusercontent.com/grafana/grafana/main/public/img/grafana_icon.svg"/>
- <img alt="Prometheus" title="Prometheus" width="50px" src="https://cncf-branding.netlify.app/img/projects/prometheus/icon/color/prometheus-icon-color.svg"/>
-
+  <img alt="Prometheus" title="Prometheus" width="50px" src="https://cncf-branding.netlify.app/img/projects/prometheus/icon/color/prometheus-icon-color.png"/>
 
   <img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
   <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
