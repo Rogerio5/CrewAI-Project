@@ -220,64 +220,101 @@ k6 run load-test.yml
 ```
 ---
 
-## 📊 Observabilidade com Grafana e Prometheus
+  📊 Observabilidade com Grafana e Prometheus
+O projeto MEUPROJETOCREWAI implementa uma stack completa de observabilidade com Grafana + Prometheus + Alertmanager, permitindo monitoramento em tempo real, alertas inteligentes e visualizações detalhadas.
 
-O projeto inclui monitoramento avançado com **Grafana + Prometheus**, garantindo visibilidade em tempo real sobre métricas, logs e alertas dos agentes CrewAI e da infraestrutura.
+🔍 Dashboards configurados
+CrewAI Full Observability — visão geral dos agentes, APIs e métricas principais
 
-### 🔍 Dashboards configurados
-- **CrewAI Full Observability** — visão geral de agentes, APIs e métricas principais  
-- **Grafana Metrics** — métricas internas do Grafana  
-- **Prometheus Stats** — estatísticas de scraping e targets  
-- **Prometheus 2.0 Stats** — painel avançado de Prometheus  
+Grafana Metrics — métricas internas do Grafana
 
-### 🚨 Alertas implementados
-Arquivo: `/etc/prometheus/alert_rules.yml`  
-Regras monitoradas:
-- Alto uso de CPU  
-- Alto uso de memória  
-- Alta latência P95  
-- Serviço fora do ar  
-- Taxa de solicitação baixa  
-- Alta taxa de erros  
+Prometheus Stats — estatísticas de scraping e targets
 
-Os alertas são disparados automaticamente e exibidos no painel do Grafana, permitindo ação imediata.
-
-### 📈 Visualizações disponíveis
-- Gráficos de séries temporais (latência, throughput, erros)  
-- Tabelas detalhadas com métricas por timestamp  
-- Drilldown para logs, traces e perfis de execução  
-- Integração com **MLflow** para tracking de experimentos
-
-### 📷 Exemplos visuais dos dashboards
-<p align="center">
-<img src="docs/assets/Grafana1.png" alt="Dashboard de métricas CrewAI no Grafana" width="800"/>
-<br><em>Figura 1: Dashboard de métricas CrewAI no Grafana</em>
-</p>
+Prometheus 2.0 Stats — painel avançado de Prometheus
 
 <p align="center">
 <img src="docs/assets/Grafana.png" alt="Interface de dashboards no Grafana" width="800"/>
-<br><em>Figura 2: Lista de dashboards configurados no Grafana</em>
+<br><em>Figura: Lista de dashboards configurados no Grafana</em>
 </p>
+
+🚨 Alertas implementados
+Os alertas são definidos em dois arquivos:
+
+alert_rules.yml (alertas gerais)
+HighCPUUsage — uso de CPU acima de 80%
+
+HighMemoryUsage — uso de memória acima de 800MB
+
+HighLatencyP95 — latência p95 acima de 5s
+
+ServiceDown — serviço fora do ar
+
+LowRequestRate — taxa de requisições muito baixa
+
+HighErrorRate — taxa de erro acima de 5%
+
+alert_rules_owner.yml (alertas específicos por owner)
+HighResponseTimeRogerio — tempo de resposta > 6s para runs do Rogerio
+
+HighRequestVolumeRogerio — mais de 500 requisições em 1h
+
+ServiceDown — indisponibilidade da API
+
+HighCPUUsage / HighMemoryUsage — consumo elevado de recursos
+
+HighAverageResponseTime — tempo médio de resposta > 4s
 
 <p align="center">
 <img src="docs/assets/Prometheus.png" alt="Alertas configurados no Prometheus" width="800"/>
-<br><em>Figura 3: Alertas da tripulação configurados no Prometheus</em>
+<br><em>Figura: Alertas da tripulação configurados no Prometheus</em>
 </p>
 
-### 🛠️ Tecnologias utilizadas na observabilidade
+📬 Notificações com Alertmanager
+Alertas são roteados e enviados via e-mail, Slack e webhook:
+
+alertmanager.yml
+Roteamento por severity, owner e team
+
+Slack: #incidentes, #monitoramento
+
+E-mail: observability@empresa.com, backend@empresa.com
+
+Inibição de alertas duplicados (warning ignorado se crítico ativo)
+
+alertmanager_owner.yml
+Roteamento personalizado para o owner Rogerio
+
+Slack: #alertas-rogerio
+
+E-mail: rogerio@dominio.com
+
+Webhook: http://api:8000/alert-webhook
+
+📈 Visualizações disponíveis
+Gráficos de séries temporais (latência, throughput, erros)
+
+Tabelas com métricas por timestamp
+
+Drilldown para logs, traces e perfis
+
+Integração com MLflow para tracking de experimentos
+
+<p align="center">
+<img src="docs/assets/Grafana1.png" alt="Dashboard de métricas CrewAI no Grafana" width="800"/>
+<br><em>Figura: Dashboard de métricas CrewAI no Grafana</em>
+</p>
+
+🛠️ Tecnologias utilizadas na observabilidade
 <p>
-  <img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
-  <img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
-  <img align="left" alt="MLflow" width="30px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo.png"/>
-  <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
-  <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
-  <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
+<img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
+<img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
+<img align="left" alt="MLflow" width="30px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo.png"/>
+<img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
+<img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
+<img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
 </p>
 
 <br clear="all"/>
-
----
-
 
 ---
 
