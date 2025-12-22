@@ -15,7 +15,6 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
   <img src="https://img.shields.io/badge/Docker-ready-blue?logo=docker" />
   <img src="https://img.shields.io/badge/Kubernetes-deploy-green?logo=kubernetes" />
   <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-yellow?logo=githubactions" />
- <img alt="MLflow" title="MLflow" width="50px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo-white.svg"/>
   <img src="https://img.shields.io/github/repo-size/Rogerio5/Projeto-CrewAI" />
   <img src="https://img.shields.io/github/license/Rogerio5/Projeto-CrewAI" />
 </p>
