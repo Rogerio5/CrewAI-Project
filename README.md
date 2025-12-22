@@ -167,7 +167,7 @@ MEUPROJETOCREWAI/
 <p>
 
   <img alt="Grafana" title="Grafana" width="50px" src="https://raw.githubusercontent.com/grafana/grafana/main/public/img/grafana_icon.svg"/>
-  <img alt="Prometheus" title="Prometheus" width="50px" src="https://raw.githubusercontent.com/prometheus/prometheus/main/documentation/images/prometheus-logo.png"/>
+  <img alt="Prometheus" title="Prometheus" width="50px" src="docs/assets/prometheus.png"/>
 
   <img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
   <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
@@ -178,7 +178,6 @@ MEUPROJETOCREWAI/
   <img align="left" alt="Weaviate" width="30px" src="https://weaviate.io/img/weaviate-logo.svg"/>
   <img align="left" alt="ChromaDB" width="30px" src="https://www.trychroma.com/favicon.ico"/>
   <img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
-  <img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
   <img align="left" alt="K6" width="30px" src="https://k6.io/favicon.ico"/>
 </p>
 
