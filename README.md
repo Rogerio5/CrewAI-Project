@@ -158,18 +158,6 @@ MEUPROJETOCREWAI/
 
 ---
 
-## 🚀 Projeto CrewAI
-**MEUPROJETOCREWAI** é um projeto completo de MLOps e Cloud Deploy, integrando:
-- Python 🐍  
-- Docker 🐳  
-- Kubernetes ☸️  
-- MLflow 📊  
-- CI/CD com GitHub Actions 🔄  
-
-Documentação completa disponível em [`docs/`](docs/).
-
----
-
 ## ▶️ Execução / Run
 
 ### Local
