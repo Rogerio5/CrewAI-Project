@@ -144,6 +144,9 @@ MEUPROJETOCREWAI/
 ```
 ---
 
+
+---
+
 ## 🧰 Tecnologias / Technologies
 
 - Python 3.11+  
@@ -154,6 +157,12 @@ MEUPROJETOCREWAI/
 - ChromaDB  
 - Weaviate  
 - FastAPI  
+- Prometheus  
+- Grafana  
+- K6 (testes de carga)  
+- Render (deploy automatizado)  
+- NLTK  
+- Pytest  
 
 <p>
   <img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
@@ -164,6 +173,9 @@ MEUPROJETOCREWAI/
   <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
   <img align="left" alt="Weaviate" width="30px" src="https://weaviate.io/img/weaviate-logo.svg"/>
   <img align="left" alt="ChromaDB" width="30px" src="https://www.trychroma.com/favicon.ico"/>
+  <img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
+  <img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
+  <img align="left" alt="K6" width="30px" src="https://k6.io/favicon.ico"/>
 </p>
 
 <br clear="all"/>
