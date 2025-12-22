@@ -174,6 +174,7 @@ MEUPROJETOCREWAI/
   <img align="left" alt="GitHub Actions" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
   <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
   <img align="left" alt="ChromaDB" width="30px" src="https://www.trychroma.com/favicon.ico"/>
+  <img alt="Hugging Face" title="Hugging Face" width="50px" src="https://huggingface.co/front/assets/huggingface_logo.svg"/>
   
 </p>
 
