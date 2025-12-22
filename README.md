@@ -239,6 +239,7 @@ Prometheus 2.0 Stats — painel avançado de Prometheus
 <br><em>Figura: Lista de dashboards configurados no Grafana</em>
 </p>
 
+
 ### 🚨 Alertas implementados
 
 Os alertas são definidos em dois arquivos:
@@ -272,6 +273,7 @@ HighAverageResponseTime — tempo médio de resposta > 4s
 <br><em>Figura: Alertas da tripulação configurados no Prometheus</em>
 </p>
 
+
 ### 📬 Notificações com Alertmanager
 
 Alertas são roteados e enviados via e-mail, Slack e webhook:
@@ -295,6 +297,7 @@ E-mail: rogerio@dominio.com
 Webhook: http://api:8000/alert-webhook
 ```
 
+
 ### 📈 Visualizações disponíveis
 ```
 Gráficos de séries temporais (latência, throughput, erros)
@@ -309,6 +312,21 @@ Integração com MLflow para tracking de experimentos
 <img src="docs/assets/Grafana1.png" alt="Dashboard de métricas CrewAI no Grafana" width="800"/>
 <br><em>Figura: Dashboard de métricas CrewAI no Grafana</em>
 </p>
+
+
+## 🏢 Observabilidade de Nível Enterprise
+
+| Recurso                          | Descrição                                                                 |
+|----------------------------------|---------------------------------------------------------------------------|
+| 🔍 **Monitoramento profundo**     | Métricas detalhadas de serviços, APIs, containers, bancos, agentes etc.  |
+| 🚨 **Alertas inteligentes**       | Regras dinâmicas com thresholds, owners, severidade e contexto técnico   |
+| 📬 **Notificações multicanal**    | Slack, e-mail, webhook, SMS, integração com sistemas de resposta          |
+| 📊 **Dashboards interativos**     | Visualizações em tempo real com drilldown para logs, traces e métricas   |
+| 🧠 **Contexto por owner/equipe**  | Alertas segmentados por responsável, time, serviço e ambiente            |
+| 🔁 **Automação de resposta**      | Webhooks que disparam ações automáticas (ex: restart, escalar, logar)    |
+| 🔐 **Segurança e auditoria**      | Controle de acesso, rastreabilidade e conformidade com políticas internas|
+| 📈 **Escalabilidade horizontal**  | Suporte a múltiplos clusters, serviços e ambientes simultâneos           |
+
 
 🛠️ Tecnologias utilizadas na observabilidade
 <p>
