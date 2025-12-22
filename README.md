@@ -8,8 +8,6 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
 
 ## 🏅 Badges
 
-# 🤖 MEUPROJETOCREWAI
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" />
   <img src="https://img.shields.io/badge/Docker-ready-blue?logo=docker" />
