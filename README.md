@@ -6,7 +6,6 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
   <img src="https://copilot.microsoft.com/th/id/BCO.02798587-053d-41cc-bf58-9c9e284012ca.png" alt="Capa do Projeto MEUPROJETOCREWAI" width="800"/>
 </p>
 
-
 ---
 
 ## 🏅 Badges
@@ -17,9 +16,8 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
   <img src="https://img.shields.io/badge/Kubernetes-deploy-green?logo=kubernetes" />
   <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-yellow?logo=githubactions" />
   <img src="https://img.shields.io/badge/MLflow-tracking-orange?logo=mlflow" />
-  <img src="https://img.shields.io/github/repo-size/seuusuario/Projeto-CrewAI" />
-  <img src="https://img.shields.io/github/license/seuusuario/Projeto-CrewAI" />
-  
+  <img src="https://img.shields.io/github/repo-size/Rogerio5/Projeto-CrewAI" />
+  <img src="https://img.shields.io/github/license/Rogerio5/Projeto-CrewAI" />
 </p>
 
 ---
@@ -34,6 +32,7 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
 - [Execução / Run](#execução--run)  
 - [CI/CD Pipeline](#cicd-pipeline)  
 - [Testes de Carga](#testes-de-carga)  
+- [📊 Observabilidade](#-observabilidade-com-grafana-e-prometheus)  
 - [Resultados e Visualizações / Results--visuals](#resultados-e-visualizações--results--visuals)  
 - [Possíveis Melhorias Futuras / Future-Improvements](#possíveis-melhorias-futuras--future-improvements)  
 - [Desenvolvedor / Developer](#desenvolvedor--developer)  
@@ -207,6 +206,50 @@ Exemplo de execução:
 ```
 k6 run load-test.yml
 ```
+---
+
+## 📊 Observabilidade com Grafana e Prometheus
+
+O projeto inclui monitoramento avançado com **Grafana + Prometheus**, garantindo visibilidade em tempo real sobre métricas, logs e alertas dos agentes CrewAI e da infraestrutura.
+
+### 🔍 Dashboards configurados
+- **CrewAI Full Observability** — visão geral de agentes, APIs e métricas principais  
+- **Grafana Metrics** — métricas internas do Grafana  
+- **Prometheus Stats** — estatísticas de scraping e targets  
+- **Prometheus 2.0 Stats** — painel avançado de Prometheus  
+
+### 🚨 Alertas implementados
+Arquivo: `/etc/prometheus/alert_rules.yml`  
+Regras monitoradas:
+- Alto uso de CPU  
+- Alto uso de memória  
+- Alta latência P95  
+- Serviço fora do ar  
+- Taxa de solicitação baixa  
+- Alta taxa de erros  
+
+Os alertas são disparados automaticamente e exibidos no painel do Grafana, permitindo ação imediata.
+
+### 📈 Visualizações disponíveis
+- Gráficos de séries temporais (latência, throughput, erros)  
+- Tabelas detalhadas com métricas por timestamp  
+- Drilldown para logs, traces e perfis de execução  
+- Integração com **MLflow** para tracking de experimentos  
+
+### 🛠️ Tecnologias utilizadas na observabilidade
+<p>
+  <img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
+  <img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
+  <img align="left" alt="MLflow" width="30px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo.png"/>
+  <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
+  <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
+  <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
+</p>
+
+<br clear="all"/>
+
+---
+
 
 ---
 
