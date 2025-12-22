@@ -8,6 +8,22 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
 
 ## 🏅 Badges
 
+# 🤖 MEUPROJETOCREWAI
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" />
+  <img src="https://img.shields.io/badge/Docker-ready-blue?logo=docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-deploy-green?logo=kubernetes" />
+  <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-yellow?logo=githubactions" />
+  <img src="https://img.shields.io/badge/MLflow-tracking-orange?logo=mlflow" />
+</p>
+
+<p align="center">
+  <img src="https://copilot.microsoft.com/th/id/BCO.crew-ai-cover.png" alt="Capa do Projeto CrewAI" width="800"/>
+</p>
+
+--- 
+
 - 📦 Tamanho do repositório / Repository Size:  
   ![GitHub repo size](https://img.shields.io/github/repo-size/seuusuario/Projeto-CrewAI)
 
