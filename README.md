@@ -168,10 +168,6 @@ MEUPROJETOCREWAI/
 
   <img alt="Grafana" title="Grafana" width="50px" src="https://raw.githubusercontent.com/grafana/grafana/main/public/img/grafana_icon.svg"/>
   <img alt="Prometheus" title="Prometheus" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg"/>
-  <img align="left" alt="Weaviate" title="Weaviate" width="30px" src="https://weaviate.io/img/weaviate-logo.svg"/>
-  <img align="left" alt="K6" title="K6" width="30px" src="https://k6.io/images/logo.svg"/>
-
-
   <img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
   <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
   <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
@@ -334,8 +330,8 @@ Integração com MLflow para tracking de experimentos
 
 🛠️ Tecnologias utilizadas na observabilidade
 <p>
-<img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
-<img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
+<img alt="Grafana" title="Grafana" width="50px" src="https://raw.githubusercontent.com/grafana/grafana/main/public/img/grafana_icon.svg"/>
+  <img alt="Prometheus" title="Prometheus" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg"/>
 <img alt="MLflow" title="MLflow" width="50px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo-white.svg"/>
 <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
 <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
