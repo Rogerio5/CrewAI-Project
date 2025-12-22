@@ -1,0 +1,3 @@
+{
+  "query": "{ Get { User(where: {path: [\"idade\"], operator: GreaterThan, valueNumber: 30}) { nome email idade } } }"
+}

@@ -1,0 +1,22 @@
+{
+  "objects": [
+    {
+      "class": "Document",
+      "properties": {
+        "text": "Maria Oliveira, 25 anos, email: maria@example.com"
+      }
+    },
+    {
+      "class": "Document",
+      "properties": {
+        "text": "João Silva, 30 anos, email: joao@example.com"
+      }
+    },
+    {
+      "class": "Document",
+      "properties": {
+        "text": "Carlos Souza, 40 anos, email: carlos@example.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Ignorar controle de versão
+.git
+.gitignore
+
+# Ambientes virtuais locais
+venv/
+.env/
+crewai-env/
+*.env
+
+# Cache e compilados Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info
+*.egg
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Dados de execução e tracking
+mlruns/
+tracking/
+*.db
+
+# Configurações locais
+.vscode/
+.idea/
+.DS_Store
+
+# Arquivos de testes e relatórios
+.coverage
+htmlcov/
+tests.http

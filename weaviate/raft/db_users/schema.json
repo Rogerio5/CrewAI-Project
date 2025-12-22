@@ -1,0 +1,23 @@
+{
+  "classes": [
+    {
+      "class": "User",
+      "description": "Informações de usuários",
+      "vectorizer": "none",
+      "properties": [
+        { "name": "nome", "dataType": ["text"] },
+        { "name": "email", "dataType": ["text"] },
+        { "name": "idade", "dataType": ["int"] },
+        { "name": "documento", "dataType": ["Document"] }
+      ]
+    },
+    {
+      "class": "Document",
+      "description": "Documentos associados a usuários",
+      "vectorizer": "none",
+      "properties": [
+        { "name": "text", "dataType": ["text"] }
+      ]
+    }
+  ]
+}

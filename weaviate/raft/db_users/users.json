@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "class": "User",
+      "properties": {
+        "nome": "João Silva",
+        "email": "joao@example.com",
+        "idade": 30
+      }
+    },
+    {
+      "class": "User",
+      "properties": {
+        "nome": "Maria Oliveira",
+        "email": "maria@example.com",
+        "idade": 25
+      }
+    },
+    {
+      "class": "User",
+      "properties": {
+        "nome": "Carlos Souza",
+        "email": "carlos@example.com",
+        "idade": 40
+      }
+    }
+  ]
+}

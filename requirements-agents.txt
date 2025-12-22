@@ -1,0 +1,45 @@
+# --- CrewAI ---
+crewai==1.7.0
+crewai-tools==1.7.0
+
+# --- LangChain e ecossistema ---
+langchain==0.3.27
+langchain-core==0.3.80
+langchain-text-splitters==0.3.11
+langsmith==0.4.59
+
+# --- Modelos e LLMs ---
+openai==1.83.0
+anthropic==0.75.0
+huggingface-hub==0.36.0
+transformers==4.46.2
+tokenizers==0.20.3
+tiktoken==0.8.0
+sentence-transformers==3.0.1
+
+# --- Vetores e armazenamento ---
+chromadb==1.1.1
+lancedb==0.5.7
+faiss-cpu==1.9.0
+diskcache==5.6.3
+
+# --- Observabilidade e tracing para agentes ---
+openlit==1.36.3
+opentelemetry-api==1.34.1
+opentelemetry-sdk==1.34.1
+opentelemetry-instrumentation-fastapi==0.55b1
+opentelemetry-exporter-otlp==1.34.1
+
+# --- Extras úteis ---
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.16.3
+matplotlib==3.10.8
+
+
+slowapi==0.1.8
+
+
+# --- Migração ChromaDB ---
+chroma-migrate==0.0.5   # ou a versão mais recente disponível

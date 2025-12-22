@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+*.env
+*.pkl
+*.h5
+*.pt
+*.model
+
+# Build
+build/
+dist/
+*.tar.gz
+*.whl
+
+# IDEs
+.vscode/
+.idea/
+
+# Dados e experimentos
+artifacts/
+mlruns/
+observability/
+web/

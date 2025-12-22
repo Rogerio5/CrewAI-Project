@@ -1,0 +1,6 @@
+{
+  "class": "Document",
+  "properties": {
+    "text": "Olá CrewAI, testando Chromadb!"
+  }
+}

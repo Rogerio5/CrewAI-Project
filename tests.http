@@ -1,0 +1,44 @@
+@access_token = SEU_TOKEN_AQUI
+
+### 1. Obter token JWT
+POST http://localhost:8000/token
+Content-Type: application/x-www-form-urlencoded
+
+username=admin&password=admin123
+
+###
+
+### 2. Chamar /crew
+POST http://localhost:8000/crew
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+  "topic": "Teste de execução"
+}
+
+###
+
+### 3. Ver métricas
+GET http://localhost:8000/metrics
+Authorization: Bearer {{access_token}}
+
+###
+
+### 4. Simular alerta no /alert-webhook
+POST http://localhost:8000/alert-webhook
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+  "status": "firing",
+  "labels": {
+    "alertname": "HighResponseTimeRogerio",
+    "severity": "warning",
+    "owner": "Rogerio"
+  },
+  "annotations": {
+    "summary": "Tempo de resposta alto (Rogerio)",
+    "description": "Run do CrewAI (owner=Rogerio) acima de 6 segundos."
+  }
+}

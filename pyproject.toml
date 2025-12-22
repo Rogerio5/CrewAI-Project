@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crewai-agent"
+version = "0.1.1"  # aumente sempre que publicar uma nova versão
+description = "Agente Inteligente CrewAI com FastAPI, MLflow, Weaviate e explicabilidade"
+readme = "README.md"
+license = { text = "MIT" }   # formato correto para SPDX simples
+authors = [
+    { name = "Rogerio", email = "rogerio@dominio.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "mlflow",
+    "weaviate-client",
+    "sentence-transformers==3.0.1",
+    "pydantic",
+    "requests",
+    "python-jose",
+    "prometheus-client"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Developers"
+]
+
+[project.urls]
+Homepage = "https://github.com/Rogerio5/MEUPROJETOCREWAI"
+Documentation = "https://github.com/Rogerio5/docs"
+Source = "https://github.com/Rogerio5/MEUPROJETOCREWAI"
+
+# 👇 Pacotes incluídos no build
+[tool.setuptools.packages.find]
+include = ["api*", "mlops*", "crewai*"]
+exclude = ["tests*", "artifacts*", "mlruns*", "observability*", "web*"]
+
+# 👇 Entry point para rodar o servidor
+[project.scripts]
+crewai-api = "api.main:run"
+

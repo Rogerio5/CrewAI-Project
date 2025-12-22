@@ -1,0 +1,10 @@
+# Inclui arquivos essenciais
+include README.md
+include pyproject.toml
+
+# Exclui pastas pesadas ou irrelevantes
+exclude artifacts/*
+exclude mlruns/*
+exclude observability/*
+exclude web/*
+exclude tests/*

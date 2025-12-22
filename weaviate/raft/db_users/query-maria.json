@@ -1,0 +1,3 @@
+{
+  "query": "{ Get { User(where: {path: [\"email\"], operator: Equal, valueString: \"maria@example.com\"}) { nome email idade } } }"
+}

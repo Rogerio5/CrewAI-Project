@@ -1,0 +1,3 @@
+{
+  "query": "{ Get { User(where: {operator: And, operands: [{path: [\"idade\"], operator: GreaterThan, valueNumber: 25}, {path: [\"email\"], operator: Like, valueString: \"*example.com*\"}]}) { nome email idade } } }"
+}

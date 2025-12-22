@@ -1,0 +1,8 @@
+{
+  "class": "User",
+  "properties": {
+    "nome": "João Silva",
+    "email": "joao@example.com",
+    "idade": 30
+  }
+}
