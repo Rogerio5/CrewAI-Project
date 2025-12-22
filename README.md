@@ -246,7 +246,23 @@ Os alertas são disparados automaticamente e exibidos no painel do Grafana, perm
 - Gráficos de séries temporais (latência, throughput, erros)  
 - Tabelas detalhadas com métricas por timestamp  
 - Drilldown para logs, traces e perfis de execução  
-- Integração com **MLflow** para tracking de experimentos  
+- Integração com **MLflow** para tracking de experimentos
+
+### 📷 Exemplos visuais dos dashboards
+<p align="center">
+<img src="docs/assets/Grafana1.png" alt="Dashboard de métricas CrewAI no Grafana" width="800"/>
+<br><em>Figura 1: Dashboard de métricas CrewAI no Grafana</em>
+</p>
+
+<p align="center">
+<img src="docs/assets/Grafana.png" alt="Interface de dashboards no Grafana" width="800"/>
+<br><em>Figura 2: Lista de dashboards configurados no Grafana</em>
+</p>
+
+<p align="center">
+<img src="docs/assets/Prometheus.png" alt="Alertas configurados no Prometheus" width="800"/>
+<br><em>Figura 3: Alertas da tripulação configurados no Prometheus</em>
+</p>
 
 ### 🛠️ Tecnologias utilizadas na observabilidade
 <p>
