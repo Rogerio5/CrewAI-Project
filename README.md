@@ -338,12 +338,10 @@ Integração com MLflow para tracking de experimentos
 <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
 
 
-<p>
+
   <img align="left" alt="Prometheus" width="25px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
   <img align="left" alt="Grafana" width="25px" src="https://grafana.com/static/img/favicon.png"/>
-</p>
 
-<br clear="all"/>
 
 
 </p>
