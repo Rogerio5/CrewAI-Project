@@ -15,7 +15,7 @@ Este repositório reúne a implementação do **CrewAI**, incluindo configuraç�
   <img src="https://img.shields.io/badge/Docker-ready-blue?logo=docker" />
   <img src="https://img.shields.io/badge/Kubernetes-deploy-green?logo=kubernetes" />
   <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-yellow?logo=githubactions" />
-  <img src="https://img.shields.io/badge/MLflow-tracking-orange?logo=mlflow" />
+ <img alt="MLflow" title="MLflow" width="50px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo-white.svg"/>
   <img src="https://img.shields.io/github/repo-size/Rogerio5/Projeto-CrewAI" />
   <img src="https://img.shields.io/github/license/Rogerio5/Projeto-CrewAI" />
 </p>
@@ -168,7 +168,7 @@ MEUPROJETOCREWAI/
   <img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
   <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
   <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
-  <img align="left" alt="MLflow" width="30px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo.png"/>
+  <img alt="MLflow" title="MLflow" width="50px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo-white.svg"/>
   <img align="left" alt="GitHub Actions" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
   <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
   <img align="left" alt="Weaviate" width="30px" src="https://weaviate.io/img/weaviate-logo.svg"/>
@@ -332,7 +332,7 @@ Integração com MLflow para tracking de experimentos
 <p>
 <img align="left" alt="Prometheus" width="30px" src="https://prometheus.io/assets/favicons/favicon-32x32.png"/>
 <img align="left" alt="Grafana" width="30px" src="https://grafana.com/static/img/favicon.png"/>
-<img align="left" alt="MLflow" width="30px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo.png"/>
+<img alt="MLflow" title="MLflow" width="50px" src="https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo-white.svg"/>
 <img align="left" alt="FastAPI" width="30px" src="https://fastapi.tiangolo.com/img/icon-white.svg"/>
 <img align="left" alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
 <img align="left" alt="Kubernetes" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"/>
