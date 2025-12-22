@@ -220,10 +220,12 @@ k6 run load-test.yml
 ```
 ---
 
-  📊 Observabilidade com Grafana e Prometheus
+### 📊 Observabilidade com Grafana e Prometheus
+
 O projeto MEUPROJETOCREWAI implementa uma stack completa de observabilidade com Grafana + Prometheus + Alertmanager, permitindo monitoramento em tempo real, alertas inteligentes e visualizações detalhadas.
 
 🔍 Dashboards configurados
+```
 CrewAI Full Observability — visão geral dos agentes, APIs e métricas principais
 
 Grafana Metrics — métricas internas do Grafana
@@ -231,15 +233,16 @@ Grafana Metrics — métricas internas do Grafana
 Prometheus Stats — estatísticas de scraping e targets
 
 Prometheus 2.0 Stats — painel avançado de Prometheus
-
+```
 <p align="center">
 <img src="docs/assets/Grafana.png" alt="Interface de dashboards no Grafana" width="800"/>
 <br><em>Figura: Lista de dashboards configurados no Grafana</em>
 </p>
 
-🚨 Alertas implementados
-Os alertas são definidos em dois arquivos:
+### 🚨 Alertas implementados
 
+Os alertas são definidos em dois arquivos:
+```
 alert_rules.yml (alertas gerais)
 HighCPUUsage — uso de CPU acima de 80%
 
@@ -263,15 +266,16 @@ ServiceDown — indisponibilidade da API
 HighCPUUsage / HighMemoryUsage — consumo elevado de recursos
 
 HighAverageResponseTime — tempo médio de resposta > 4s
-
+```
 <p align="center">
 <img src="docs/assets/Prometheus.png" alt="Alertas configurados no Prometheus" width="800"/>
 <br><em>Figura: Alertas da tripulação configurados no Prometheus</em>
 </p>
 
-📬 Notificações com Alertmanager
-Alertas são roteados e enviados via e-mail, Slack e webhook:
+### 📬 Notificações com Alertmanager
 
+Alertas são roteados e enviados via e-mail, Slack e webhook:
+```
 alertmanager.yml
 Roteamento por severity, owner e team
 
@@ -289,8 +293,10 @@ Slack: #alertas-rogerio
 E-mail: rogerio@dominio.com
 
 Webhook: http://api:8000/alert-webhook
+```
 
-📈 Visualizações disponíveis
+### 📈 Visualizações disponíveis
+```
 Gráficos de séries temporais (latência, throughput, erros)
 
 Tabelas com métricas por timestamp
@@ -298,7 +304,7 @@ Tabelas com métricas por timestamp
 Drilldown para logs, traces e perfis
 
 Integração com MLflow para tracking de experimentos
-
+```
 <p align="center">
 <img src="docs/assets/Grafana1.png" alt="Dashboard de métricas CrewAI no Grafana" width="800"/>
 <br><em>Figura: Dashboard de métricas CrewAI no Grafana</em>
