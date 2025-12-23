@@ -95,10 +95,7 @@ Deploy real em nuvem é **opcional** e pode ser feito futuramente.
 
 ## 📂 Estrutura do Projeto / Project Structure
 
-Este projeto foi desenvolvido com foco em MLOps, orquestração com Kubernetes, deploy em nuvem e automação via CI/CD. Aqui está um modelo de README.md enxuto para a raiz do seu repositório, já com links para a documentação detalhada em docs/assets/readme.md e outros guias: 📖 Documentação completa: [docs/assets/readme.md](docs/assets/readme.md)
-
----
-
+Este projeto foi desenvolvido com foco em MLOps, orquestração com Kubernetes, deploy em nuvem e automação via CI/CD. Aqui está um modelo de README.md  para a raiz do meu repositório, já com links para a documentação detalhada em docs/assets/readme.md e outros guias: 📖 Documentação completa: [docs/assets/readme.md](docs/assets/readme.md)
 
 ---
 
