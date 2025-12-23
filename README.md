@@ -95,63 +95,8 @@ Deploy real em nuvem é **opcional** e pode ser feito futuramente.
 
 ## 📂 Estrutura do Projeto / Project Structure
 
-Este projeto foi desenvolvido com foco em MLOps, orquestração com Kubernetes, deploy em nuvem e automação via CI/CD. Abaixo está a estrutura completa do repositório com comentários sobre cada pasta e arquivo:
-```
-MEUPROJETOCREWAI/
-├── pycache/                  # Cache de compilação Python
-├── .github/                     # Workflows do GitHub Actions (CI/CD e testes de carga)
-│   ├── ci-cd.yml                 # Pipeline CI/CD completo (testes, build, deploy)
-│   └── load-test.yml             # Testes de carga automatizados
-├── .pytest_cache/               # Cache de testes Pytest
-├── api/                         # Endpoints da API (FastAPI ou Flask)
-├── artifacts/                   # Artefatos gerados (modelos, logs, etc.)
-├── chromadb/                    # Integração com ChromaDB (vector store)
-├── crewai/                      # Núcleo da aplicação CrewAI
-├── crewai_agent.egg-info/       # Metadados do pacote Python
-├── crewai-env/                  # Ambiente virtual Python
-├── crewai-scripts/              # Scripts auxiliares para agentes e tarefas
-├── data/                        # Dados brutos ou pré-processados
-├── dist/                        # Distribuição do pacote (build local)
-├── k8s/                         # Manifests Kubernetes para deploy
-│   ├── deployment.yaml
-│   ├── service.yaml
-│   └── ingress.yaml
-├── mlflow/                      # Configuração e tracking com MLflow
-├── mlops/                       # Pipelines e automações MLOps
-├── mlruns/                      # Experimentos salvos do MLflow
-├── observability/               # Logs, métricas e monitoramento
-├── scripts/                     # Scripts utilitários e de setup
-├── tests/                       # Testes unitários e de integração
-├── weaviate/                    # Integração com Weaviate (vector DB)
-├── web/                         # Interface web (HTML/Bootstrap ou frontend)
-│
-├── .dockerignore                # Arquivos ignorados no build Docker
-├── .gitignore                   # Arquivos ignorados pelo Git
-├── .pypirc                      # Configuração de publicação PyPI
-├── docker-compose.yml            # Orquestração local com Docker Compose
-├── Dockerfile                   # Build da imagem Docker
-├── get-pip.py                    # Script de instalação do pip
-├── MANIFEST.in                   # Inclusão de arquivos no pacote Python
-│
-├── mlflow.db                     # Banco local do MLflow
-├── publish-crewai-images.ps1    # Script para publicar imagens Docker
-├── pyproject.toml                # Configuração do projeto Python
-├── requirements.txt              # Dependências principais
-├── requirements-agents.txt       # Dependências específicas dos agentes
-├── setup_nltk.py                # Setup de pacotes NLTK
-│
-├── test_api.py                  # Testes da API
-├── test_endpoints.py            # Testes de rotas
-├── test_metrics.py              # Testes de métricas
-├── test-chromadb.ps1            # Teste de integração com ChromaDB
-├── tests.http                    # Testes de endpoints HTTP
-│
-├── README.md                     # Documentação principal
-├── README_deploy-gke.md         # Guia de deploy no GKE
-├── README_NUVEM.md              # Guia de deploy em nuvem
-├── README_TESTES.md             # Guia de testes
-├── README-FINALIZAÇÃO.md        # Encerramento do projeto
-```
+Este projeto foi desenvolvido com foco em MLOps, orquestração com Kubernetes, deploy em nuvem e automação via CI/CD. Aqui está um modelo de README.md enxuto para a raiz do seu repositório, já com links para a documentação detalhada em docs/assets/readme.md e outros guias: 📖 Documentação completa: [docs/assets/readme.md](docs/assets/readme.md)
+
 ---
 
 
