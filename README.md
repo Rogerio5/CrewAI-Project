@@ -14,7 +14,7 @@ Este projeto combina tecnologias modernas para criar uma plataforma de IA comple
 
 
 <p align="center">
-  <img src="https://copilot.microsoft.com/th/id/BCO.02798587-053d-41cc-bf58-9c9e284012ca.png" alt="Capa_do_Projeto_MEUPROJETOCREWAI" width="800"/>
+  <img src="https://copilot.microsoft.com/th/id/BCO.02798587-053d-41cc-bf58-9c9e284012ca.png" alt="Capa-do-Projeto-MEUPROJETOCREWAI" width="800"/>
 </p>
 
 ---
