@@ -12,8 +12,7 @@ Este projeto combina tecnologias modernas para criar uma plataforma de IA comple
 - **MLflow**: Tracking, versionamento e deploy de modelos de ML.
 - **Hugging Face**: Modelos pré-treinados e fine-tuning para NLP e embeddings.
 
-
-
+![Capa do Projeto - Projeto CrewAI](Projeto_CrewAI.png)
 
 ---
 
